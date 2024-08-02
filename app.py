@@ -75,11 +75,3 @@ if st.button('Predict Price'):
 
     # Display the result
     st.title(f"\nPrice: {round(predicted_price * 0.012, 2)} USD")
-
-# Note
-st.write("""
-<span style="color:green">Please note the dataset was collected from Amazon in 2017-18.<br>
-Furthermore, only 1301 samples were collected, so the price may be inaccurate.</span>
-""", unsafe_allow_html=True)
-
-
